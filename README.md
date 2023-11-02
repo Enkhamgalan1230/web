@@ -1,2 +1,3 @@
 # Web
-First Website project using HTML, CSS, JavaScript.
+First Website project using HTML, CSS, and JavaScript.
+
