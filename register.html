@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+          background-color: rgb(255, 255, 255);
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatFit</title>
+    <link href="my.css" rel="stylesheet" 	type="text/css">
+    
+
+</head>
+<body>
+    <header>
+        <img src= "imgNvid\catme.png" alt="" class="logo" >
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a> </li>
+            <li><a href="workout.html">Work out</a></li>
+            <li><a href="coach.html">Coaching</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="Entwan.html">Entwan</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    </header>
+
+<div class="Container1">
+    
+
+      <form action="" method="post" >
+         <h2 class="reg"> Registeration</h2>
+        <div class="content">
+
+    <div class="input-box">
+        <label for="name"> Full Name </label>
+        <input type="text" placeholder="Enter full name" name="name" required>
+    </div>
+
+    <div class="input-box">
+        <label for="name"> Username </label>
+        <input type="text" placeholder="Enter username" name="uname" required>
+    </div>
+
+    <div class="input-box">
+        <label for="name"> Email </label>
+        <input type="email" placeholder="Enter your valid email address" name="email" required>
+    </div>
+
+    <div class="input-box">
+        <label for="phone"> Phone number </label>
+        <input type="tel" placeholder="Enter phone number" name="phone" required>
+    </div>
+
+    <div class="input-box">
+        <label for="password"> Password </label>
+        <input type="password" placeholder="Enter new password" name="password" required>
+    </div>
+
+    <div class="input-box">
+        <label for="confirm-password"> Password </label>
+        <input type="password" placeholder="Confirm your password" name="confirmPassword" required>
+    </div>
+
+    <span class="gender-title"> Gender </span>
+    <div class="gender-category">
+        <input  type="radio" name="gender" id="male">
+        <label for="male">Male</label>
+        <input  type="radio" name="gender" id="female">
+        <label for="female">Female</label>
+        <input  type="radio" name="gender" id="pineapple">
+        <label for="male">Pineapple</label>
+    </div>
+    <div class="button-container">
+        <button type="submit" onclick="say()" >Register</button>
+    </div>
+
+  </div>
+      </form>
+    
+</div>
+<script>
+    function say(){
+        alert("Successful" );
+    }
+    
+</script>
+    </body>
+
+    <footer class="foot7">
+        
+        <div class="footer-bottom">
+            © <script>document.write(new Date().getFullYear())</script> | CatFit Limited | All Rights Reserved | Together We go JIM
+        </div>
+        </div>
+
+
+
+        
+      </footer>
+
+
+
+    </html>

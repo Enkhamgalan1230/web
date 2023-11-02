@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+          background-color: lightblue;
+        }
+        </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatFit</title>
+    <link href="my.css" rel="stylesheet" 	type="text/css">
+
+</head>
+<body>
+    <header>
+        <img src= "imgNvid\catme.png" alt="" class="logo" >
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html"> About</a> </li>
+            <li><a href="workout.html">Work out</a></li>
+            <li><a href="coach.html">Coaching</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="Entwan.html">Entwan</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <div class="containerPR">
+        <img src="imgNvid\beanie.jpg" class="zurag1" > 
+    </div>
+    <div class="containerPR2">
+        <img src="imgNvid\hoodie1.jpg" class="zurag2" > 
+    </div>
+    <div class="containerPR3">
+        <img src="imgNvid\pre1.jpg" class="zurag3" > 
+    </div>
+    <div class="containerPR4">
+        <img src="imgNvid\pro.jpg" class="zurag4" > 
+    </div>
+    <div class="textPr">
+        <h2> Products </h2>
+    </div>
+
+    <div class="desctext1">
+        <p> <b>CatFit Beanie</b> <br> White <br> £30</p>
+    </div>
+    <div class="desctext2">
+        <p> <b>CatFit Hoodie</b> <br> Gray <br> £69</p>
+    </div>
+    <div class="desctext3">
+        <p> <b>PreWorkout v.1</b> <br> Natural <br> £20</p>
+    </div>
+    <div class="desctext4">
+        <p> <b>Super Weigh Protein v.2</b> <br> Whey <br> £50</p>
+    </div>
+
+
+    <button type=" Buy" class="btn" onclick="openPopup()"> Buy Everything lol</button>
+    <div class="popup" id="popup">
+        <img src="imgNvid\yaya.gif">
+        <h2>Thank you !</h2>
+        <p> I couldn't make a cool feature like putting in cart and asks for payment method so here is a popup.</p>
+        <button class="popups" type="button" onclick="closePopup()" > OK </button>
+    </div>
+
+    <script>
+  let popup = document.getElementById("popup");
+
+  function openPopup(){
+    popup.classList.add("open-popup");
+  }
+  function closePopup(){
+    popup.classList.remove("open-popup");
+  }
+    </script>
+    
+    <img src="imgNvid\me.gif" class="gif5" >
+
+    <footer class="foot5">
+        © <script>document.write(new Date().getFullYear())</script> | CatFit Limited | All Rights Reserved | Together We go JIM
+   </footer>
+
+
+
+      
+</body>
+</html>
